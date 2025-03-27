@@ -1,0 +1,55 @@
+from http.server import BaseHTTPRequestHandler, HTTPServer
+import json
+
+#HTTP Server
+host = "localhost"
+port = 8000
+
+# Headers to block
+blocked_headers = {
+    "suffix": "%>//",
+    "c1": "Runtime",
+    "c2": "<%",
+    "DNT": "1",
+    "Content-Type": "application/x-www-form-urlencoded"
+}
+
+def block_request(self):
+    self.send_response(403)  # Forbidden
+    self.send_header("Content-type", "application/json")
+    self.end_headers()
+    self.wfile.write(json.dumps({"error": "Request blocked due to headers"}).encode("utf-8"))
+    print("Blocking request due to headers")
+
+def handle_request(self):
+    for header, value in blocked_headers.items():
+        if header in self.headers and self.headers[header] == value:
+            block_request(self)
+            return
+
+    self.send_response(200)
+    self.send_header("content-type", "application/json")
+    self.end_headers()
+    self.wfile.write(json.dumps({"message": "Request processed"}).encode("utf-8"))
+    print("Request processed")
+
+class ServerHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        handle_request(self)
+
+    def do_POST(self):
+        handle_request(self)
+
+if __name__ == "__main__":
+    server = HTTPServer((host, port), ServerHandler)
+    print("[+] Firewall Server")
+    print("[+] HTTP Web Server running on: %s:%s" % (host, port))
+
+    try:
+        server.serve_forever()
+    except KeyboardInterrupt:
+        pass
+
+    server.server_close()
+    print("[+] Server terminated. Exiting...")
+    exit(0)
