@@ -2,7 +2,7 @@ FIREWALL
 
 Objective
 
-The Firewall project is the culmination of the Forage Telstra Cybersecurity Job Simulation. Given firewall logs some back ground on the Spring Framework vulnerability the aim of the exercise was to diagnose, triage, alert, and ultimately address the threat by changing the firewall rules, or in this case build a firewall with a python script. A general outline of the Firewall and the Attacker's code were provided. Overall this simulation provided a real-world incident and response scenario to provide insight into the role and responsibilities of a Security Analyst. 
+The Firewall project is the culmination of the Forage Telstra Cybersecurity Job Simulation. Given firewall logs and some back ground on the Spring Framework vulnerability the aim of the exercise was to diagnose, triage, alert, and ultimately address the threat by changing the firewall rules, or in this case build a firewall with a python script. A general outline of the Firewall and the Attacker's code were provided. Overall this simulation provided a real-world incident and response scenario to provide insight into the role and responsibilities of a Security Analyst. 
 
 Skills Learned
 
