@@ -10,5 +10,5 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 
 ## Projects
 - Detection Lab <a href="https://github.com/ryancurtisacosta/Cybersecurity/blob/Firewall/Firewall%20rules%20to%20block%20specific%20headers%20for%20Spring%20Framework">Firewall</a>
-- SOC Automation Project <a href="https://google.com">Detection Lab</a>|
+- SOC Automation Project <a href="https://github.com/ryancurtisacosta/Cybersecurity/blob/Honeypot/cowrie%20honeypot">Honeypot</a>
 
