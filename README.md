@@ -6,7 +6,7 @@ I am a currently getting my Masters in Cybersecurity and Information Assurance a
 
 ## Objective
 
-My journey in technology has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Cybersecurity team as an Analyst.
+My journey in technology has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Cybersecurity team as an Analyst. This repository will continually be updated.
 
 ## Projects
 - Detection Lab <a href="https://github.com/ryancurtisacosta/Cybersecurity/blob/Firewall/Firewall%20rules%20to%20block%20specific%20headers%20for%20Spring%20Framework">Firewall</a>
