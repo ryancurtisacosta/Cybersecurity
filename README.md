@@ -3,11 +3,11 @@ Packet Tracer Network
 
 Objective
 
-To build a network using Packet Tracer in order to get a better sense of what comprises the physical connections of a network and to learn the Packet tracer platform. Also, to demonstate my understanding of network protocols and services.
+To build a network using Packet Tracer to get a better sense of what comprises the physical connections of a network and to learn the Packet Tracer platform. Also, to demonstrate my understanding of network protocols and services.
 
 Lessons Learned
 
-Gained a strong understanding of the Packet Tracer platform which will help in data flow diagrams and serve to support my knowlege base of network architecture in general. Having never worked with physical networking devices this project has highlighted the different considerations for network infrastructure. That this project may not be condusive to Github. With only screen shots to show the work it limited what could be shown and with virtually no code run the Github repository does not feel like a match to showcase this project.
+Gained a strong understanding of the Packet Tracer platform which will help in data flow diagrams and serve to support my knowledge base of network architecture in general. Having never worked with physical networking devices this project has highlighted the different considerations for network infrastructure. That this project may not be conducive to Github. With only screen shots to show the work it limited what could be shown and with virtually no code run the Github repository does not feel like a match to showcase this project.
 
 
 Technology Used
