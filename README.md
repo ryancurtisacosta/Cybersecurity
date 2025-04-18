@@ -3,7 +3,7 @@ Packet Tracer Network
 
 Objective
 
-To build a network using Packet Tracer in order to get a better sense of what comprises the physical connections of network and to learn the Packet tracer platform. Also, to demonstate my understanding of network protocols and services.
+To build a network using Packet Tracer in order to get a better sense of what comprises the physical connections of a network and to learn the Packet tracer platform. Also, to demonstate my understanding of network protocols and services.
 
 Lessons Learned
 
@@ -16,7 +16,7 @@ Packet Tracer
 
 
 
-Started network by adding switch
+Started network by adding a Switch
 
 ![Screenshot 2025-04-11 at 9 57 58 AM](https://github.com/user-attachments/assets/011e70aa-6f5a-4943-88be-52a3e679debc)
 
